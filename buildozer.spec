@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = Mortgage Calculator
+title = Ping Pong
 
 # (str) Package name
-package.name = mortgagecalculator
+package.name = pingpong
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.wiseplat
+package.domain = org.skysmart
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -28,7 +28,7 @@ source.dir = .
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version = 0.2
+version = 0.1
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
@@ -43,13 +43,13 @@ requirements = python3,kivy==2.0.0,kivymd,https://github.com/kivymd/KivyMD/archi
 # requirements.source.kivy = ../../kivy
 
 # (str) Presplash of the application
-presplash.filename = %(source.dir)s/data/logo/presplash512okmin.png
+presplash.filename = %(source.dir)s/data/logo/png-transparent-ping-pong-paddles-sets-computer-icons-ping-pong-game-sport-sports-equipment-thumbnail.png
 
 # (str) Icon of the application
-icon.filename = %(source.dir)s/data/logo/logo512min.png
+icon.filename = %(source.dir)s/data/logo/png-transparent-ping-pong-paddles-sets-computer-icons-ping-pong-game-sport-sports-equipment-thumbnail.png
 
 # (str) Supported orientation (one of landscape, sensorLandscape, portrait or all)
-orientation = all
+orientation = landscape
 
 # (list) List of service to declare
 #services = NAME:ENTRYPOINT_TO_PY,NAME2:ENTRYPOINT2_TO_PY
@@ -72,7 +72,7 @@ osx.kivy_version = 2.0.0
 #
 
 # (bool) Indicate if the application should be fullscreen or not
-fullscreen = 0
+fullscreen = 1
 
 # (string) Presplash background color (for android toolchain)
 # Supported formats are: #RRGGBB #AARRGGBB or one of the following names:
@@ -226,7 +226,7 @@ fullscreen = 0
 #android.copy_libs = 1
 
 # (str) The Android arch to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
-android.arch = armeabi-v7a
+android.arch = arm64-v8a
 
 # (int) overrides automatic versionCode computation (used in build.gradle)
 # this is not the same as app version and should only be edited if you know what you're doing
