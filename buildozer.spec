@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = Ping Pong
+title = PingPong
 
 # (str) Package name
 package.name = pingpong
